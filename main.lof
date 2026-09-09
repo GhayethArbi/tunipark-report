@@ -1,0 +1,57 @@
+\babel@toc {french}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Logo de RedSys}}{16}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Icône de l'application TuniPark}}{18}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Cycle de développement Agile}}{19}{figure.caption.8}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme global des cas d'utilisation de l'application TuniPark}}{24}{figure.caption.9}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture logique de TuniPark}}{34}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Architecture physique de l'application TuniPark}}{35}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Logo du framework Flutter}}{36}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Logo du framework Angular}}{36}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Logo du framework NestJS}}{37}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Logo de PostgreSQL}}{37}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Microservice IA développé avec FastAPI}}{38}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Authentification basée sur JWT}}{38}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Logo de Cloudinary}}{38}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Logo de Firebase Cloud Messaging}}{39}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Logo de Flouci}}{39}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Logo de Nodemailer}}{39}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagramme de classes de l'application TuniPark}}{43}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Authentification}}{45}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Renouvellement automatique du jeton}}{46}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Création d'une session de stationnement}}{47}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Paiement d'une session de stationnement}}{48}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Recommandation intelligente des parkings}}{50}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Ajout d'un parking privé}}{52}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Envoi des notifications}}{54}{figure.caption.40}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Implémentation du module d'authentification}}{59}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Implémentation du module de gestion des parkings}}{60}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Implémentation du module de gestion des tarifs}}{61}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Implémentation du module des sessions de stationnement}}{62}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Implémentation du module de paiement}}{63}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Implémentation du module de recommandation intelligente}}{64}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Implémentation du module de notifications}}{65}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Implémentation du module des interactions avec les parkings}}{66}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Implémentation du module de gestion des utilisateurs}}{67}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Interfaces d'authentification}}{68}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Exploration des parkings}}{69}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Création d'une session de stationnement}}{70}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Paiement d'une session}}{71}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Suivi d'une session active}}{72}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Ajout d'un parking privé}}{73}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Interface du profil utilisateur}}{74}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Interface des notifications}}{75}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Tableau de bord de l'administration}}{76}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Interface de gestion des ressources}}{76}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Déploiement du Backend et de la base de données sur Render}}{77}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Déploiement de la plateforme web d'administration sur Vercel}}{77}{figure.caption.61}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Documentation et tests des API à l'aide de Swagger}}{80}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Validation de l'API d'authentification avec Swagger}}{81}{figure.caption.63}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Validation des données enregistrées dans PostgreSQL}}{84}{figure.caption.69}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Validation d'un paiement avec Flouci}}{86}{figure.caption.70}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Validation des notifications Push avec Firebase Cloud Messaging}}{87}{figure.caption.71}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Validation du stockage des images avec Cloudinary}}{88}{figure.caption.72}%

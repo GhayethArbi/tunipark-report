@@ -1,0 +1,181 @@
+\documentclass[a4paper,12pt,final]{report}
+
+% ===================================================================
+%                       CORE PACKAGES
+% ===================================================================
+\usepackage{auxhook}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{geometry}
+
+% ===================================================================
+%                     DOCUMENT STRUCTURE & STYLE
+% ===================================================================
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage[nottoc]{tocbibind}
+\usepackage{indentfirst}
+
+% ===================================================================
+%                      GRAPHICS, FIGURES, AND TABLES
+% ===================================================================
+\usepackage{graphicx}
+\usepackage{pdfpages}
+
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage[section]{placeins}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{makecell}
+
+% ===================================================================
+%                           MATH & ALGORITHMS
+% ===================================================================
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{siunitx}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% ===================================================================
+%                          COLOR PACKAGE
+% ===================================================================
+% Load xcolor EARLY with all required options
+\usepackage[dvipsnames,table]{xcolor}
+
+% ===================================================================
+%                      UTILITY & SPECIAL PACKAGES
+% ===================================================================
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{dirtytalk}
+\usepackage{enumitem}
+\usepackage{acronym}
+\usepackage{textpos}
+\usepackage[pages=some]{background}
+
+% ===================================================================
+%                     CODE LISTING CONFIGURATION
+% ===================================================================
+\usepackage{listings}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{DarkGray}{rgb}{0.3,0.3,0.3}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+% Specific language definition for YAML
+\lstdefinelanguage{YAML}{
+  keywords={true,false,null,y,n},
+  keywordstyle=\color{DarkGray}\bfseries,
+  ndkeywords={- , id, uri, predicates, filters, name, args, Path, StripPrefix, AddRequestHeader, AddResponseHeader},
+  ndkeywordstyle=\color{codepurple}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{\#},
+  morecomment=[s]{"}{"},
+  morecomment=[s]{'}{'},
+  morestring=[b]',
+  morestring=[b]",
+  literate =    {---}{{\char`\---}}3
+                {...}{{\char`\...}}3,
+}
+
+% Specific language definition for HCL (Terraform)
+\lstdefinelanguage{HCL}{
+  keywords={resource, provider, variable, output, module, data, locals},
+  keywordstyle=\color{blue}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{\#},
+  morecomment=[s]{"}{"},
+  stringstyle=\color{codepurple},
+  morestring=[b]",
+}
+
+% ===================================================================
+%                     CUSTOM DOCUMENT SETTINGS
+% ===================================================================
+\numberwithin{equation}{section}
+
+% Page style configuration
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{\thepage}
+
+% ===================================================================
+%                     END OF PREAMBLE
+% ===================================================================
+\newcommand{\euro}{\EUR\xspace}
+
+\begin{document}
+\includepdf[pages=2]{Page_Garde.pdf}
+
+\includepdf{ss.pdf}
+
+\newpage
+\input{Acknowledgment.tex}
+\input{Abstract.tex}
+
+\thispagestyle{empty}
+\newpage
+
+\vspace{2\baselineskip}
+
+\tableofcontents
+\thispagestyle{empty}
+
+\listoffigures
+\listoftables
+\thispagestyle{empty}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{Introduction}
+
+\input{Chapter1}
+\input{Chapter2}
+\input{Chapter3}
+\input{Chapter4}
+\input{Chapter5}
+\input{Conclusion}
+
+% IEEE style is very common in electrical engineering, computer science, and related fields. 
+% It uses a numbered citation system within square brackets in the text, with a numerically ordered bibliography at the end.
+\bibliographystyle{IEEEtran} 
+\bibliography{references}
+
+\includepdf[pages=1]{Page_Garde.pdf}
+
+\end{document}

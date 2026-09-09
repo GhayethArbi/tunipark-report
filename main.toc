@@ -1,0 +1,113 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{Table des figures}{10}{chapter*.3}%
+\contentsline {chapter}{Liste des tableaux}{12}{chapter*.4}%
+\contentsline {chapter}{Introduction Générale}{13}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}Contexte Général et Étude Préalable}{15}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{15}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Entreprise d'accueil}{15}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Aperçu de RedSys}{15}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Domaines d'activité de RedSys}{16}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Contexte organisationnel}{16}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Cadre général du projet}{17}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Problématique}{17}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Étude de l'existant}{17}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Critique de l'existant}{18}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Solution proposée}{18}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Méthodologie de développement}{19}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Méthodologie Agile}{19}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Framework SCRUM}{20}{subsection.1.8.2}%
+\contentsline {section}{\numberline {1.9}Conclusion}{20}{section.1.9}%
+\contentsline {chapter}{\numberline {2}Analyse et Spécification des Besoins}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{21}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Identification des acteurs}{21}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Utilisateur}{21}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Administrateur}{22}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Besoins fonctionnels}{22}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Besoins non fonctionnels}{23}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Diagramme global des cas d'utilisation}{23}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Description des principaux cas d'utilisation}{25}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Authentification}{25}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Gestion d'une session de parking}{26}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Gestion d'un parking privé}{27}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Paiement d'une session}{28}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}Validation des parkings privés}{29}{subsection.2.6.5}%
+\contentsline {section}{\numberline {2.7}Product Backlog}{29}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Conclusion}{31}{section.2.8}%
+\contentsline {chapter}{\numberline {3}Conception et Architecture du Système}{32}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{32}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Architecture du système}{32}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Architecture logique}{32}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Architecture physique}{34}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Choix techniques}{36}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Flutter}{36}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Angular}{36}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}NestJS}{37}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}PostgreSQL et Prisma}{37}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}FastAPI et Random Forest}{37}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Authentification JWT}{38}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Cloudinary}{38}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}Firebase Cloud Messaging}{39}{subsection.3.3.8}%
+\contentsline {subsection}{\numberline {3.3.9}Flouci}{39}{subsection.3.3.9}%
+\contentsline {subsection}{\numberline {3.3.10}Nodemailer}{39}{subsection.3.3.10}%
+\contentsline {section}{\numberline {3.4}Conception de la base de données}{39}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Tables de gestion des utilisateurs et des accès}{40}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Tables de gestion des parkings}{41}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Tables de gestion des sessions de stationnement}{41}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Table de gestion des paiements}{41}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Tables de gestion des notifications}{42}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Table utilisée par le système de recommandation}{42}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Diagramme de classes}{42}{subsection.3.4.7}%
+\contentsline {section}{\numberline {3.5}Diagrammes de séquence}{44}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Diagramme de séquence de l'authentification}{44}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Diagramme de séquence du renouvellement automatique du jeton}{46}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Diagramme de séquence de la création d'une session de stationnement}{47}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Diagramme de séquence du paiement d'une session de stationnement}{47}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Diagramme de séquence de la recommandation intelligente des parkings}{48}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Diagramme de séquence de l'ajout d'un parking privé}{51}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.7}Diagramme de séquence des notifications}{53}{subsection.3.5.7}%
+\contentsline {section}{\numberline {3.6}Conclusion}{55}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Réalisation et Implémentation}{56}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{56}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Environnement de développement}{56}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Implémentation du Backend}{58}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Module d'authentification}{58}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Module de gestion des parkings}{59}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Module de gestion des tarifs}{60}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Module de gestion des sessions de stationnement}{61}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Module de paiement}{62}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Module de recommandation intelligente}{63}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}Module de notifications}{64}{subsection.4.3.7}%
+\contentsline {subsection}{\numberline {4.3.8}Module des interactions avec les parkings}{65}{subsection.4.3.8}%
+\contentsline {subsection}{\numberline {4.3.9}Module de gestion des utilisateurs}{66}{subsection.4.3.9}%
+\contentsline {section}{\numberline {4.4}Implémentation de l'application mobile}{67}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Authentification}{67}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Exploration des parkings}{68}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Création d'une session de stationnement}{69}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Paiement d'une session}{70}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Suivi de la session}{71}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Ajout d'un parking privé}{72}{subsection.4.4.6}%
+\contentsline {subsection}{\numberline {4.4.7}Profil utilisateur}{73}{subsection.4.4.7}%
+\contentsline {subsection}{\numberline {4.4.8}Notifications}{74}{subsection.4.4.8}%
+\contentsline {section}{\numberline {4.5}Fonctionnalités administratives}{75}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Présentation du déploiement}{76}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Conclusion}{78}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Tests, Validation et Résultats}{79}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{79}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Stratégie de test}{79}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Outil de test des API}{80}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Validation des API du Backend}{81}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Tests fonctionnels}{81}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Tests d'authentification et de contrôle d'accès}{82}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Tests de gestion des parkings}{82}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Tests des sessions de stationnement et des paiements}{83}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Tests des notifications}{83}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.5}Tests du système de recommandation}{83}{subsection.5.5.5}%
+\contentsline {section}{\numberline {5.6}Validation de la base de données}{84}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Validation des services externes}{85}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Validation des paiements avec Flouci}{85}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Validation des notifications Firebase}{86}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Validation du stockage Cloudinary}{87}{subsection.5.7.3}%
+\contentsline {section}{\numberline {5.8}Résultats et discussion}{88}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Conclusion}{89}{section.5.9}%
+\contentsline {chapter}{Conclusion Générale et Perspectives}{90}{chapter*.73}%
+\contentsline {chapter}{Bibliographie}{92}{chapter*.74}%

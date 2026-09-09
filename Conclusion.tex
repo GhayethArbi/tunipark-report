@@ -1,0 +1,24 @@
+\chapter*{Conclusion Générale et Perspectives}
+\addcontentsline{toc}{chapter}{Conclusion Générale et Perspectives}
+
+\section*{Conclusion Générale}
+
+\par Ce projet de fin d'études a permis de concevoir et de développer \textbf{TuniPark}, une application intelligente de gestion du stationnement destinée à faciliter la recherche, la réservation et le paiement des places de stationnement. La solution proposée répond aux difficultés rencontrées par les automobilistes lors de la recherche d'une place disponible, tout en offrant aux propriétaires de parkings privés un moyen simple de proposer leurs emplacements et de les gérer efficacement.
+
+\par Le projet a débuté par une étude du contexte général du stationnement ainsi que par une analyse des besoins des différents acteurs. Cette phase a permis d'identifier les exigences fonctionnelles et non fonctionnelles du système, de définir les cas d'utilisation et d'établir le Product Backlog ayant servi de base à la réalisation de l'application.
+
+\par La phase de conception a permis de définir l'architecture générale de la solution à travers les architectures logique et physique ainsi que les différents diagrammes UML. Les choix technologiques se sont appuyés sur \textbf{Flutter} pour le réalisation  de l'application mobile, \textbf{NestJS} pour le Backend, \textbf{PostgreSQL} pour le stockage des données et \textbf{Angular} pour la plateforme web d'administration. Plusieurs services externes ont également été intégrés, notamment \textbf{Flouci} pour les paiements électroniques, \textbf{Firebase Cloud Messaging} pour les notifications Push et \textbf{Cloudinary} pour le stockage des images.
+
+\par La phase d'implémentation a conduit au développement d'une application complète intégrant l'authentification sécurisée, la gestion des parkings publics et privés, la création des sessions de stationnement, le paiement électronique, les notifications Push ainsi qu'une plateforme web destinée à l'administration des parkings et des utilisateurs. Une attention particulière a également été portée au développement d'un système de recommandation intelligent reposant sur un modèle de \textbf{Random Forest}, permettant de proposer aux utilisateurs les parkings les plus adaptés à leur situation.
+
+\par Enfin, les différentes phases de validation ont confirmé le bon fonctionnement des principaux modules de l'application. Les tests des API, les tests fonctionnels ainsi que la validation des services externes ont permis de vérifier la fiabilité de la solution développée et de s'assurer que les principales exigences définies au début du projet étaient satisfaites.
+
+\section*{Perspectives}
+
+\par Plusieurs améliorations pourront être apportées aux futures versions de \textbf{TuniPark}. Une première évolution consistera à enrichir le système de recommandation en exploitant un volume plus important de données réelles afin d'améliorer la précision des suggestions proposées aux utilisateurs. L'intégration de techniques d'apprentissage plus avancées et la prise en compte des habitudes de stationnement permettraient d'obtenir des recommandations encore plus pertinentes.
+
+%\par Une autre perspective concerne l'amélioration des fonctionnalités de réservation. Il serait intéressant d'ajouter un système de réservation anticipée avec une durée configurable, ainsi qu'un mécanisme de tarification dynamique tenant compte de la demande, des horaires et du taux d'occupation des parkings.
+
+\par L'application pourrait également intégrer de nouveaux moyens de paiement ainsi que l'activation complète de la vérification des numéros de téléphone par SMS à l'aide de \textbf{Twilio}. Cette fonctionnalité renforcerait la sécurité des comptes utilisateurs et simplifierait les procédures de récupération d'accès.
+
+\par Enfin, plusieurs fonctionnalités destinées aux administrateurs et aux propriétaires de parkings pourraient être développées, telles que des tableaux de bord statistiques plus avancés, l'analyse de l'occupation des parkings en temps réel, la génération automatique de rapports ainsi que des outils d'aide à la décision permettant d'optimiser la gestion des espaces de stationnement.
